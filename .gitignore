@@ -1,0 +1,48 @@
+# .NET Core
+**/bin/
+**/obj/
+**/.vs/
+**/.vscode/
+*.user
+*.suo
+*.userprefs
+*.swp
+*.cache
+*.pidb
+*.log
+*.nupkg
+
+# IDE
+.vs/
+.idea/
+.vscode/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+bld/
+
+# NuGet
+**/packages/
+*.nupkg
+nuget.exe
+
+# Local development
+appsettings.Development.json
+
+# Docker
+docker-compose.override.yml
+
+# Database
+*.mdf
+*.ldf
+
+# Misc
+*.sql
+*.bak
+*.cache
+*.orig
+*~
